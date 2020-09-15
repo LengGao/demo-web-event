@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>custom event</title>
+</head>
+  <script src="javascripts/event1.js" defer></script>
+  <script src="javascripts/old_event.js" defer></script>
+  <script src="javascripts/new_event.js" defer></script>
+<body>
+  <div style="text-align: center;">
+    <a  href='https://segmentfault.com/a/1190000017947343'> 首先让我简单了解一下JS的事件机制</a>
+  </div>
+  <div>
+    <p>任何用户操作都有对应的事件接口，牢记js是基于对象，由事件驱动的语言这句话</p>
+  </div>
+  <!-- 新定义方式 -->
+  <div id='new'>
+    <p>新定义方式</p>
+    <p>触发内置事件</p>  
+    <input type="checkbox" id='checkbox' value="1" />
+  </div>
+  <!-- 旧定义方式 -->
+  <div id='old'>
+    <p>就定义方式</p>
+    已废弃
+  </div>
+</body>
+</html>
